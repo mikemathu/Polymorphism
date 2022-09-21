@@ -5,7 +5,15 @@ class SearchEngine
     static void Main(string[] args)
     {
         GoogleSearch googleSearch = new GoogleSearch();
-        googleSearch.Search("");
+        googleSearch.Search("mike");
+        Console.WriteLine(googleSearch);
+
+
+        //SearchEngine s = new SearchEngine();
+      /*  Overriding2 s = new Overriding2();
+        s.Name();*/
+
+
 
      
     }
@@ -13,5 +21,10 @@ class SearchEngine
     {
         return new string[0]; // I'm terrible at searching... I give up.
     }
+
+   
+
+
+
 
 }
